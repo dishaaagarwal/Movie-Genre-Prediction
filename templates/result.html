@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Movie Genre Predictor</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div class="header">
+            <h2>Movie Genre Predictor</h2>
+        </div>
+
+        <div class="results">
+			{% if prediction==0 %}
+				<h1> Genre: <span class='result-prediction'>Miscellaneous</span></h1>
+			{% elif prediction==1 %}
+				<h1> Genre: <span class='result-prediction'>Action</span></h1>
+			{% elif prediction==2 %}
+				<h1>Genre: <span class='result-prediction'>Adventure</span></h1>
+			{% elif prediction==3 %}
+				<h1>Genre: <span class='result-prediction'>Comedy</span></h1>
+			{% elif prediction==4 %}
+				<h1>Genre: <span class='result-prediction'>Drama</span></h1>
+			{% elif prediction==5 %}
+				<h1>Genre: <span class='result-prediction'>Horror</span></h1>
+			{% elif prediction==6 %}
+				<h1>Genre: <span class='result-prediction'>Romance</span></h1>
+			{% elif prediction==7 %}
+				<h1>Genre: <span class='result-prediction'>Sci-Fi</span></h1>
+			{% elif prediction==8 %}
+				<h1>Genre: <span class='result-prediction'>Thriller</span></h1>
+			{% endif %}
+        </div>
+        <div class="footer">
+            <p>Made By : Dishaa Agarwal</p>
+          </div>
+    </body>
+</html>
