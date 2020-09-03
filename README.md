@@ -9,3 +9,5 @@
 4. Used Multinomial Naive Bayes theorem .
 
 5. I was able to achieve an accuracy of 90.0%.
+
+6. Web Deployment link-https://movie-genre-prediction-2020.herokuapp.com/
