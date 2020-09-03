@@ -4,7 +4,7 @@
 
 2. Dataset Link: https://www.kaggle.com/c/moviegenres/overview
 
-3. Used NLP techniques for cleaning text and finally making a corpus.
+3. Used NLP techniques for cleaning text and finally making a corpus and build a Word Cloud for most popular genre.
 
 4. Used Multinomial Naive Bayes theorem .
 
